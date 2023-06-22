@@ -78,5 +78,22 @@ body{
      background-color: #f44336; /* Color de fondo */
      border-radius: 10px;
   }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content.show {
+  display: block;
+}
   
 
